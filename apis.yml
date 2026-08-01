@@ -1,7 +1,22 @@
 aid: socialee
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/socialee.png
 name: Socialee
-description: Socialee is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Socialee is a beauty shopping platform that blends social media with e-commerce, letting
+  shoppers discover and buy products through shoppable videos, write reviews, and earn rewards as creators.
+  Its catalog spans makeup, skincare, fragrance, haircare, and bath & body, with next-day delivery and
+  7-day returns. Surfaced as a 500 Global portfolio company and added to the API Evangelist network; an
+  enrichment pass on 2026-07-21 found no public API, developer portal, or .well-known discovery surface.
 url: https://raw.githubusercontent.com/api-evangelist/socialee/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +29,11 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- E-Commerce
+- Social Commerce
+- Beauty
+- Retail
+- Video Commerce
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +43,8 @@ maintainers:
 common:
 - type: Website
   url: https://socialee.shop
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
